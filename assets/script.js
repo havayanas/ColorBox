@@ -14,7 +14,7 @@ function Color(day) {
     const box = document.getElementById("box");
     if (!box) return;
     
-    box.style.top = "2px";
+    box.style.top = "-800px";
     
     setTimeout(() => {
         box.style.opacity = "1";
